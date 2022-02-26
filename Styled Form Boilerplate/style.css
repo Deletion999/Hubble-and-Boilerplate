@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+
+
+body {
+  background-color: #274471;
+  font-family: 'Lato', sans-serif;
+}
+
+.get-in-touch {
+  padding: 0px 0px 20px 0;
+}
+
+.container {
+  width: 400px;
+  background-color: rgb(243,243,243);
+  border-radius: 6px;
+  margin: 30px auto;
+  padding: 25px 25px;
+
+}
+
+.input-type {
+  width: 100%;
+  padding: 10px 16px;
+  margin: 8px 0px;
+  border-radius: 6px;
+  border-style: hidden;
+}
+
+.input-type:hover {
+  background-color: aqua;
+}
+
+.submit-button {
+  background-color: #1ac0f3;
+  padding: 14px 20px;
+  width: 100%;
+  border-radius: 6px;
+  cursor: pointer;
+  border-style: hidden;
+  color: white;
+}
+
+::-webkit-resizer {  
+  color: gray;  
+}
